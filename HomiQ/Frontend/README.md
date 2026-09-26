@@ -1,4 +1,4 @@
-# HomiQ — Frontend
+# HomiQ 
 
 Frontend-only scaffold for HomiQ, a smart real-estate platform, matching the
 provided designs: home, property listings, property detail, 360° virtual
@@ -25,27 +25,17 @@ Open http://localhost:3000.
 
 ## Project structure
 
-```
-app/
-  layout.tsx              Root layout (Navbar + Footer)
-  page.tsx                Home
-  properties/
-    page.tsx               Property listing + filters
-    [id]/page.tsx           Property detail
-  virtual-tours/
-    [id]/page.tsx           360° VR tour viewer
-  login/page.tsx
-  signup/page.tsx
-  ai-recommendation/page.tsx
-  services/page.tsx
-  about/page.tsx
-components/
-  Navbar.tsx
-  Footer.tsx
-  PropertyCard.tsx
-  SearchBar.tsx
-data/
-  properties.ts            Mock property data / types
+HomiQ
+└── Frontend
+    ├── app
+    ├── components
+    ├── data
+    ├── public
+    ├── package.json
+    ├── package-lock.json
+    ├── next.config.js
+    ├── tsconfig.json
+    └── ...
 ```
 
 ## Connecting to a real backend later
